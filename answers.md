@@ -1,0 +1,4 @@
+Activity 8 answers
+1. They are all based on selecting and removing sets of cards, but which cards can be selected is different depending on the game. They use different board sizes, elevens uses 9 cards, tens uses a 13 card board, and thirteens uses a 10 card board.
+2.The ElevensBoard class initializes the values by declaring private, final variables, then a public method in the ElevensBoard class returns those values, then those methods are called in the Board class.
+3.The abstact methods are isLegal and anotherPlayIsPossible. They are implemented as public methods in ElevensBoard. Since the methods in Board are abstact they can be different for each type of board. The code for the methods in elevensBoard takes the same parameters as the versions in the other games, but it works differently to account for the different rules.
